@@ -1,4 +1,4 @@
-package ifelse;
+package Day4;
 
 import java.util.Scanner;
 
@@ -10,10 +10,10 @@ public class Ques7 {
         char str = input.next().charAt(0);
         boolean result = Character.isDigit(str);
         if(result) {
-            System.out.println("'"+ str+"' is a number");
+            System.out.println("'" + str + "' is a number");
         }
         else {
-            System.out.println("'"+ str+"' is a alphabet");
+            System.out.println("'" + str + "' is a alphabet");
         }
     }
 }

@@ -1,4 +1,4 @@
-package ifelse;
+package Day4;
 //Write a JAVA program to input week number and print weekday.
 import java.util.Scanner;
 

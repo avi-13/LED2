@@ -8,7 +8,7 @@ public class EvenOdd {
         int num;
         System.out.printf("Enter a number: \t");
         num = scanner.nextInt();
-        if (num%2==0) {
+        if (num % 2 == 0) {
             System.out.println("The number is EVEN");
         } else if (num % 2 != 0) {
             System.out.println("The number is ODD");
