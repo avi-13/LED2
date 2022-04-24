@@ -12,12 +12,12 @@ public class Ques9 {
         boolean result = Character.isDigit(str);
         boolean result2 = Character.isAlphabetic(str);
         if(result) {
-            System.out.println("'"+ str+"' is a number");
+            System.out.println("'" + str + "' is a number");
         }
         else if (result2) {
-            System.out.println("'"+ str+"' is a letter");
+            System.out.println("'" + str + "' is a letter");
         } else {
-            System.out.println("'"+ str+"' is a special character");
+            System.out.println("'" + str + "' is a special character");
         }
     }
 }

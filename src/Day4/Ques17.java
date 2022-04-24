@@ -13,11 +13,26 @@ public class Ques17 {
         System.out.println("Enter constant: ");
         int c = input.nextInt();
 
-        double d = Math.sqrt((b*b)-(4*a*c));
+        double determinant = ((b*b)-(4*a*c));
+        double sqrt = Math.sqrt(determinant);
 
-        double root1 = (d-b)/(2*a);
-        double root2 = -(b+d)/(2*a);
+
+        double root1 = (sqrt-b)/(2*a);
+        double root2 = -(b+sqrt)/(2*a);
 
         System.out.println("Solution 1: "+root1+"\nSolution 2: "+root2);
     }
 }
+//
+//    double determinant = ((b * b) - (4 * a * c));
+//    double sqrt = Math.sqrt(determinant);
+//
+//        if (determinant>0) {
+//                double first_root = (-b + sqrt) / (2 * a);
+//                double second_root = (-b - sqrt) / (2 * a);
+//
+//                System.out.println("Solution 1: " +first_root + "\nSolution 2: " +second_root);
+//
+//                }
+//                else if(determinant==0){
+//                System.out.println("root is " +(-b) / (2 * a));
